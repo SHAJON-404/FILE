@@ -11,3 +11,6 @@ chmod +x *
 ```
 
 * 🥳🥳🥳🥳🥳🥳
+* <p align="left">
+  <img src="https://komarev.com/ghpvc/?username=SHAJON-404&label=Profile%20views&color=eb4d3d&style=flat-square" alt="SHAJON-404" />
+</p>
