@@ -11,7 +11,7 @@
 <table>
   <tr>
     <td><img src="https://raw.githubusercontent.com/SHAJON-404/FILE/refs/heads/main/IMAGE/main_menu.jpg" alt="Main Menu Image" width="450"></td>
-    <td><img src="https://raw.githubusercontent.com/SHAJON-404/FILE/refs/heads/main/IMAGE/dumping.jpg" alt="Dumping Image" width="450"></td>
+    <td><img src="https://raw.githubusercontent.com/SHAJON-404/FILE/refs/heads/main/IMAGE/dump.jpg" alt="Dumping Image" width="450"></td>
   </tr>
 </table>
 
