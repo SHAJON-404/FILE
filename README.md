@@ -17,9 +17,6 @@
 
 ## :rocket: 𝗜𝗡𝗦𝗧𝗔𝗟𝗟 𝗣𝗥𝗢𝗖𝗘𝗦𝗦
 ```
-pkg update && pkg upgrade -y
-pkg uninstall python -y 
-pkg install python 
 cd $HOME
 rm -rf FILE
 git clone --depth=1 https://github.com/SHAJON-404/FILE.git
