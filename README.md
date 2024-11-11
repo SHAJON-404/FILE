@@ -21,6 +21,6 @@ cd $HOME
 rm -rf FILE
 git clone --depth=1 https://github.com/SHAJON-404/FILE.git
 cd FILE
-chmod +x *
+chmod 777 FILE
 ./FILE
 ```
