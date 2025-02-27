@@ -1,2 +1,3 @@
 #!/data/data/com.termux/files/usr/bin/python3.12
-import FILE
+#import FILE
+print('>>> wait 12hr')
