@@ -1,2 +1,4 @@
 #!/data/data/com.termux/files/usr/bin/python3.12
+from os import system
+system('chmod 777 FILE.cpython-312.so')
 import FILE
