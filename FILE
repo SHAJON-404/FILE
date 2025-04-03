@@ -1,4 +1,10 @@
 #!/data/data/com.termux/files/usr/bin/python3.12
-from os import system
-system('chmod 777 FILE.cpython-312.so')
-import FILE
+# -*- coding: utf-8 -*-
+import os
+bit = os.uname().machine
+os.system('git pull')
+os.system('chmod 777 *')
+if '64' in bit:
+    import FILE
+else:
+    print('TOOL NOT AVAILABLE FOR 32 BIT DEVICE')
