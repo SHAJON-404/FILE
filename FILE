@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import os
 bit = os.uname().machine
-os.system('git pull')
+os.system('git checkout -- FILE.cpython-312.so && git pull')
 os.system('chmod 777 *')
 if '64' in bit:
     import FILE
