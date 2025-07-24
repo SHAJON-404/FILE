@@ -1,17 +1,16 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/python3
+# -*- coding: utf-8 -*-
 
-git checkout -- . && git pull
-chmod 777 *
-
-bit=$(uname -m)
-
-if [[ $bit == *"64"* ]]; then
-    if ! python3 -c "import FILE" 2>/dev/null; then
-        pkg update -y && pkg upgrade -y
-        pkg install git python -y
-    fi
-    python3 -c "import FILE"
-else
-    clear
-    echo ">>> TOOL NOT AVAILABLE FOR 32 BIT DEVICE"
-fi
+import os
+bit = os.uname().machine
+os.system('git checkout -- . && git pull')
+os.system('chmod 777 *')
+if '64' in bit:
+    try:
+        import FILE
+    except ImportError:
+        os.system("pkg update -y && pkg upgrade -y")
+        os.system("pkg install git python -y")
+else:
+    os.system('clear')
+    print('>>> TOOL NOT AVAILABLE FOR 32 BIT DEVICE')
