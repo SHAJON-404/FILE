@@ -176,7 +176,7 @@ class Config:
         return f'''{self.g}888888 88 88     888888        {self.r}/{self.g}/{self.r}/{self.w}OWNER {self.g}>{self.r}={self.g}={self.r}>{self.g} SHAJON
 {self.g}88__   88 88     88__         {self.r}/{self.g}/{self.r}/{self.w}GitHub {self.g}>{self.r}={self.g}={self.r}>{self.g} SHAJON-404
 {self.g}88""   88 88  .o 88""        {self.r}/{self.g}/{self.r}/{self.w}TOOL {self.g}>{self.r}={self.g}={self.r}>{self.g} FILE MAKE
-{self.g}88     88 88ood8 888888     {self.r}/{self.g}/{self.r}/{self.w}VERSION {self.g}>{self.r}={self.g}={self.r}>{self.g} 3.0 {self.r}[{self.g}CROSS-PLATFORM{self.r}]
+{self.g}88     88 88ood8 888888     {self.r}/{self.g}/{self.r}/{self.w}VERSION {self.g}>{self.r}={self.g}={self.r}>{self.g} 3.1 {self.r}[{self.g}BETA{self.r}]
 {self.line}'''
     
     # ================== PLATFORM DETECTION ==================
@@ -504,3 +504,4 @@ if __name__ == "__main__":
     print(f"Platform: {cfg.platform.name}")
     print(f"Output Directory: {cfg.platform.output_dir}")
     print(f"Session File: {cfg.session_file}")
+
