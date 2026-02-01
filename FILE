@@ -7,7 +7,8 @@ os.system('git checkout -- . && git pull')
 os.system('chmod 777 *')
 if '64' in bit:
     try:
-        import FILE.main()
+        import FILE
+        FILE.main()
     except ImportError:
         os.system("pkg update -y && pkg upgrade -y")
         os.system("pkg install git python -y")
